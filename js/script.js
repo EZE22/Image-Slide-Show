@@ -1,12 +1,22 @@
 $(function() {
   // jQuery goes here...
 
+  //jQuery Methods for Traversal
+  //$("#list").find("li").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("#list").children("li").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("#list").parents("div").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("#list").siblings(":header").css("background-color", "rgba(180, 180, 30, 0.8)");
+  $("#list").prev().css("background-color", "rgba(180, 180, 30, 0.8)");
+  $("#list").next().css("background-color", "rgba(180, 180, 30, 0.8)");
+
+
+
   //To get all the input elements of type text
-  //$("input:text").css("background-color", "rgba(180, 180, 30, 0.8)");
+  // $("input:text").css("background-color", "rgba(180, 180, 30, 0.8)");
 
   //Using CSS Selectors in jQuery
-  // $("p").css("background-color", "rgba(180, 180, 30, 0.8)");
-  // $(".red-box").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("p").css("background-color", "green");
+  //$(".red-box").css("background-color", "yellow");
   //$("#list").css("background-color", "rgba(180, 180, 30, 0.8)");
   //$("input[type='text']").css("background-color", "rgba(180, 180, 30, 0.8)");
   //$("h2, p, input").css("background-color", "rgba(180, 180, 30, 0.8)");
