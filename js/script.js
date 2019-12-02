@@ -1,6 +1,31 @@
 $(function() {
   // jQuery goes here...
 
+  $(".red-box").before("<div class='red-box'>Red 2</div>");
+  $(".green-box").before("<div class='green-box'>Green 2</div>");
+  $(".blue-box").before("<div class='blue-box'>Blue 2</div>");
+
+  //****Adding New Events to the DOM****
+  //$("ul ul:first").append("<li>I'm going to be the last sub-item</li>");
+
+  //$("<li>I'm going to be the last sub-item</li>").appendTo($("ul ul:first"));
+  //$("<li>I'm going to be the last sub-item</li>").prependTo("ul ul")
+
+  //$("ul ul:first").prepend("<li>I am the first sub-item</li>");
+  //$("ul ul").prepend("<li>I am the first sub-item</li>");
+
+  $("<h4>Adam E. Ingram</h4>").prependTo("#content");
+
+  // $(".red-box").after("<div class='red-box'>Another Red</div>");
+  // $(".blue-box").before("<div class='blue-box'>Blue Friend</div>");
+
+  // $(".blue-box").before(function () {
+  //   return "<div class='blue-box'>Blue 2</div>";
+  // });
+
+  //$("p").after($("#list"));
+
+
   //****jQuery Methods for Filtering****
   //$("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 30, 0.8)");
   //$("#list").children("li").filter(":even").css("background-color", "rgba(180, 180, 30, 0.8)");
