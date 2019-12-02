@@ -1,9 +1,25 @@
 $(function() {
   // jQuery goes here...
 
-  $(".red-box").before("<div class='red-box'>Red 2</div>");
-  $(".green-box").before("<div class='green-box'>Green 2</div>");
-  $(".blue-box").before("<div class='blue-box'>Blue 2</div>");
+  //****Replacing Elements and Content****
+  //$("li").replaceWith("<li>Replaced.</li>");
+
+  // $("li").replaceWith(function () {
+  //   return "<li>Replaced with function.</li>";
+  // });
+
+  // let firstListItem = $("li:first");
+  // $("p").replaceWith(firstListItem);
+
+  //mini challenge replace all the red and blue boxes on the page by a green box
+  //$(".red-box, .blue-box").replaceWith("<div class='green-box'>New Green</div>"); //I like this one better
+  //$("<div class='green-box'>More Green</div>").replaceAll(".red-box, .blue-box");
+  $(".red-box, .blue-box").replaceWith(function () {
+    return "<div class='green-box'>New Green</div>";
+  })
+
+
+
 
   //****Adding New Events to the DOM****
   //$("ul ul:first").append("<li>I'm going to be the last sub-item</li>");
