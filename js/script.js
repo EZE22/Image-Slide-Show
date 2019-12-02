@@ -1,6 +1,22 @@
 $(function() {
   // jQuery goes here...
 
+
+
+  //****Removing Elements and Content****
+  //I will be working with 3 different functions for removing elements
+
+  // let removedListItem = $("li").remove();
+  // $("form").children().not("input:text, textarea, br").remove();
+
+  // let detachedListItem = $("li").detach();
+  // $("#content").append(detachedListItem);
+
+  // $("p:first").empty();
+
+  //mini challenge empty all the boxes on the page so there is no text inside them
+  // $(".red-box, .blue-box, .green-box").empty();
+
   //****Replacing Elements and Content****
   //$("li").replaceWith("<li>Replaced.</li>");
 
@@ -14,9 +30,9 @@ $(function() {
   //mini challenge replace all the red and blue boxes on the page by a green box
   //$(".red-box, .blue-box").replaceWith("<div class='green-box'>New Green</div>"); //I like this one better
   //$("<div class='green-box'>More Green</div>").replaceAll(".red-box, .blue-box");
-  $(".red-box, .blue-box").replaceWith(function () {
-    return "<div class='green-box'>New Green</div>";
-  })
+  // $(".red-box, .blue-box").replaceWith(function () {
+  //   return "<div class='green-box'>New Green</div>";
+  // })
 
 
 
