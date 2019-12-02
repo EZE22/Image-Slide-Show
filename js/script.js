@@ -1,9 +1,19 @@
 $(function() {
-  // jQuery goes here... 
-  $(".lightbox").fadeIn(1000);
+  // jQuery goes here...
 
+  //To get all the input elements of type text
+  //$("input:text").css("background-color", "rgba(180, 180, 30, 0.8)");
 
-
+  //Using CSS Selectors in jQuery
+  // $("p").css("background-color", "rgba(180, 180, 30, 0.8)");
+  // $(".red-box").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("#list").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("input[type='text']").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("h2, p, input").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("p:first").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("li:last").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("li:even").css("background-color", "rgba(180, 180, 30, 0.8)");
+  //$("li:odd").css("background-color", "rgba(180, 180, 30, 0.8)");
 
 
   //Delaying using callback funcitons
