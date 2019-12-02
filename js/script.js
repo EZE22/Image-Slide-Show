@@ -1,6 +1,21 @@
 $(function() {
   // jQuery goes here...
 
+  //***Manipulating Attributes and Properties***
+  //attr(), prop(), val()
+  // let specialLink = $("#special-link");
+  // console.log(specialLink.attr("href"));
+
+  // let checkbox = $("input:checkbox");
+  // console.log(checkbox.prop("checked")); //this will return either true or false. true for check
+
+  let textInput = $("input:text");
+  textInput.val("Lindsay Ingram");
+  console.log(textInput.val());
+
+  let rangeInput = $("input:in-range");
+  console.log(rangeInput.val());
+
 
 
   //****Removing Elements and Content****
